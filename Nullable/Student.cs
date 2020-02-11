@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Nullable {
     public class Student {
-        public int Id { get; set; }
+        public int Id { get;private set; }
         public string Name { get; set; }
         public int? SAT { get; set; }
         public double GPA { get; set; }
@@ -13,6 +13,3 @@ namespace Nullable {
     }
 
 }
-    
-
-
